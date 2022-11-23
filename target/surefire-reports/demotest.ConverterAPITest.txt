@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: demotest.ConverterAPITest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 5.754 s <<< FAILURE! - in demotest.ConverterAPITest
+demotest.ConverterAPITest.ConvertDateToUnixTimeStamp  Time elapsed: 4.566 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [503]
+	at demotest.ConverterAPITest.ConvertDateToUnixTimeStamp(ConverterAPITest.java:15)
+
+demotest.ConverterAPITest.ConvertUnixTimeStampToDate  Time elapsed: 0.13 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [503]
+	at demotest.ConverterAPITest.ConvertUnixTimeStampToDate(ConverterAPITest.java:24)
+
